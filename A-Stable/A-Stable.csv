@@ -1,0 +1,7 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J2,J1";"PinHeader_2x01_P2.54mm_Vertical";2;"Conn_01x02_Pin";;;
+2;"U1";"DIP-8_W7.62mm";1;"NE555P";;;
+3;"R1";"R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal";1;"200";;;
+4;"R2";"R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal";1;"47";;;
+5;"C2";"C_Disc_D3.8mm_W2.6mm_P2.50mm";1;"0.01uF";;;
+6;"C1";"CP_Radial_D5.0mm_P2.00mm";1;"0.15uF";;;

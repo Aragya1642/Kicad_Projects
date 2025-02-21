@@ -1,0 +1,10 @@
+.title KiCad schematic
+J1 __J1
+C2 +5V GND 0.01u
+R2 Net-_U1-DIS_ Net-_U1-THR_ 47
+R1 +5V Net-_U1-DIS_ 200
+C1 Net-_U1-THR_ GND 0.15u
+D1 __D1
+R3 Net-_U1-Q_ Net-_D1-A_ 100
+U1 __U1
+.end

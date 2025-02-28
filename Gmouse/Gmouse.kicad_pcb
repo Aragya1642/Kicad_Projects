@@ -141,7 +141,7 @@
 	(footprint "Teensy:Teensy40_SMT"
 		(layer "F.Cu")
 		(uuid "be8854be-235d-4658-8b5c-adf7596975ce")
-		(at 80 60 180)
+		(at 94 58 180)
 		(property "Reference" "U1"
 			(at 0 -10.16 0)
 			(layer "F.SilkS")
@@ -1279,16 +1279,26 @@
 		(layer "Edge.Cuts")
 		(uuid "37287b72-b854-4ae9-aeb8-82f9e3f3e71b")
 	)
-	(gr_arc
-		(start 40 70)
-		(mid 80 30)
-		(end 120 70)
+	(gr_line
+		(start 80 130)
+		(end 80 30)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "53232b9b-69a8-4e9a-bce9-bcb016f2dbdc")
+		(uuid "3ca6ba87-b92b-4912-be86-4f5e8cc62759")
+	)
+	(gr_curve
+		(pts
+			(xy 80 30) (xy 120 30) (xy 120 30) (xy 120 50)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4a96136e-af93-4c3b-be1c-21a717910d48")
 	)
 	(gr_line
 		(start 55 70)
@@ -1307,8 +1317,20 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "8a9df09b-d0f8-4c55-bc1c-9e0920ecbb9f")
+	)
+	(gr_curve
+		(pts
+			(xy 80 30) (xy 40 30) (xy 40 30) (xy 40 50)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9b6344cc-3e8a-457b-ab8e-1707964f70c3")
 	)
 	(gr_line
 		(start 106 130)
@@ -1319,6 +1341,16 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "a4021a65-f234-4782-9373-99c56311e614")
+	)
+	(gr_line
+		(start 40 50)
+		(end 40 70)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "aed23aad-e636-4a8a-9bda-9a25b0ce6470")
 	)
 	(gr_line
 		(start 106 70)
@@ -1349,6 +1381,16 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f78bd0b9-946d-487c-bb2e-b97f45c1ee6e")
+	)
+	(gr_line
+		(start 120 50)
+		(end 120 70)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f825a9cd-a41f-48da-b38b-380995676506")
 	)
 	(embedded_fonts no)
 )

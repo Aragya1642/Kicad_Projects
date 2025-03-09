@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "Teensy")(type "Legacy")(uri "${KIPRJMOD}/teensy_library-master/teensy.lib")(options "")(descr "Teensy Boards"))
   (lib (name "HCMS_2903")(type "KiCad")(uri "${KIPRJMOD}/HCMS_2903/2025-02-22_00-09-18.kicad_sym")(options "")(descr "HCMS_2903 LED Display"))
+  (lib (name "Buttons")(type "KiCad")(uri "${KIPRJMOD}/TL3365AF180QG/TL3365AF180QG.kicad_sym")(options "")(descr ""))
+  (lib (name "SMT_Speaker")(type "KiCad")(uri "${KIPRJMOD}/SMT_0440_T_R/SMT-0440-T-R.kicad_sym")(options "")(descr ""))
 )

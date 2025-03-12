@@ -251,7 +251,80 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_issues|5321300|2425700|2889d238-1653-47f4-9e89-e591a81987a8|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|3467100|1930400|d72c290d-38f7-4c47-a3d3-48aefed2ee1c|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|3492500|1816100|d43b437b-eeee-4735-93db-ca16429850e7|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|4356100|1930400|76562736-7ee0-46c7-a359-260ffa6836ea|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|4381500|1816100|58a3bb35-461d-40b2-9835-638d550ddd18|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|5245100|1930400|8f933db3-c960-41ea-b67f-15e7f3ffa6f1|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|5270500|1816100|944983bd-785e-4a20-b108-b98b2e7c66ce|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|6210300|1930400|4a8c5157-764c-4853-8ef5-55ff42d158cf|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|6235700|1816100|4c391d6c-dc53-4dea-b729-fcda843450ca|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|7099300|1930400|8675c1ce-4ea4-465d-aec6-abbaa328c0e5|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|7124700|1816100|2c73d4e7-c98b-4cd2-b742-570a031cfee5|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|7988300|1930400|5763a3af-c4ca-4dba-810a-104ac8d92281|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|8013700|1816100|db06ae05-472a-4e95-a3e4-61422842e55f|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "pin_to_pin|6096000|2489200|5fc0a8b2-b7e2-4b76-aa0b-158348a3cfe6|f3a63dc4-2b0e-402f-83e1-7c8d077720f1|/dad8d45a-1f06-4c5d-bdb1-6d7ada26c3d3|/dad8d45a-1f06-4c5d-bdb1-6d7ada26c3d3|/dad8d45a-1f06-4c5d-bdb1-6d7ada26c3d3",
+        ""
+      ],
+      [
+        "pin_to_pin|6654800|2387600|caf5f506-cd40-4970-9c6b-c0da80820a6a|9f400a49-f7a2-4680-abbb-33777ba0c8d3|/dad8d45a-1f06-4c5d-bdb1-6d7ada26c3d3|/dad8d45a-1f06-4c5d-bdb1-6d7ada26c3d3|/dad8d45a-1f06-4c5d-bdb1-6d7ada26c3d3",
+        ""
+      ],
+      [
+        "pin_to_pin|6654800|2438400|2cb29cf4-842b-472c-833b-80a4f79dc690|be5bdbc6-22c5-4b33-82a5-ad0b4e0cc871|/dad8d45a-1f06-4c5d-bdb1-6d7ada26c3d3|/dad8d45a-1f06-4c5d-bdb1-6d7ada26c3d3|/dad8d45a-1f06-4c5d-bdb1-6d7ada26c3d3",
+        ""
+      ],
+      [
+        "pin_to_pin|6654800|2463800|3d637b2d-d04a-465b-843c-7d5629b0314e|e88c78ab-7389-4f7d-a675-7900dee27a67|/dad8d45a-1f06-4c5d-bdb1-6d7ada26c3d3|/dad8d45a-1f06-4c5d-bdb1-6d7ada26c3d3|/dad8d45a-1f06-4c5d-bdb1-6d7ada26c3d3",
+        ""
+      ],
+      [
+        "pin_to_pin|6654800|2489200|4b6e1e23-fda3-402c-a066-953b618dd216|3d637b2d-d04a-465b-843c-7d5629b0314e|/dad8d45a-1f06-4c5d-bdb1-6d7ada26c3d3|/dad8d45a-1f06-4c5d-bdb1-6d7ada26c3d3|/dad8d45a-1f06-4c5d-bdb1-6d7ada26c3d3",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -515,7 +588,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Gmouse.step",
       "svg": "",
       "vrml": ""
     },
@@ -573,12 +646,72 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

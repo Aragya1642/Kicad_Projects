@@ -58,7 +58,104 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|124371600|67000000|b21f4e32-9f5c-46cb-875b-9dad387552bb|9bd96aa7-f308-410a-b671-7448fb1356fc",
+          ""
+        ],
+        [
+          "clearance|124371600|68000000|40cc9a74-78ec-4b46-8179-90df7810a149|b21f4e32-9f5c-46cb-875b-9dad387552bb",
+          ""
+        ],
+        [
+          "clearance|124371600|69000000|59a29c40-a8c4-423a-8939-fe622b6e3846|40cc9a74-78ec-4b46-8179-90df7810a149",
+          ""
+        ],
+        [
+          "clearance|124371600|70000000|9dcf6842-6121-4ff7-bc9f-390b69c14e6e|59a29c40-a8c4-423a-8939-fe622b6e3846",
+          ""
+        ],
+        [
+          "clearance|124371600|71000000|f3181373-1c6c-4cdc-b35a-72ff3444292f|9dcf6842-6121-4ff7-bc9f-390b69c14e6e",
+          ""
+        ],
+        [
+          "clearance|124371600|72000000|4c4e183c-8058-4db1-b2db-a0da8bf517b6|f3181373-1c6c-4cdc-b35a-72ff3444292f",
+          ""
+        ],
+        [
+          "clearance|124371600|73000000|30c83916-3464-4792-bdd2-4f789a65151c|4c4e183c-8058-4db1-b2db-a0da8bf517b6",
+          ""
+        ],
+        [
+          "courtyards_overlap|114475000|35310000|31bdb843-e156-496f-9467-be99179372a0|42924509-ffea-454a-8a3e-226693dcdc84",
+          ""
+        ],
+        [
+          "courtyards_overlap|124706751|45753624|a035c07c-3e8c-4bf5-85d9-00dbdcc81743|c1e60cc3-3fa0-4fbd-8ee6-b6f29062b9fb",
+          ""
+        ],
+        [
+          "courtyards_overlap|126795000|54515000|b3563866-cc68-4004-9ebd-7e705ef4b63e|e595abc6-dba4-4a1d-8600-98a4b41ec70a",
+          ""
+        ],
+        [
+          "courtyards_overlap|50285000|54525000|52b7821c-b8ce-47eb-a21a-87c33e27ed81|6d14555e-54e4-4b54-9607-96e55738da94",
+          ""
+        ],
+        [
+          "courtyards_overlap|55348349|37808725|41542456-0cc0-4fbc-875f-f488b7f44ed5|9cb2458e-d110-43da-b580-f8127689a6cc",
+          ""
+        ],
+        [
+          "courtyards_overlap|73566530|35310000|2f461b06-b48b-4e07-96be-4e992d705017|6574eecf-3078-4405-a123-91c188eb13d2",
+          ""
+        ],
+        [
+          "silk_edge_clearance|108710000|40056935|131d15d7-ebe9-4193-bf47-1f5054bc1219|a1b140e4-47f8-4acf-8767-1261ef5ac411",
+          ""
+        ],
+        [
+          "silk_edge_clearance|108710000|40056935|131d15d7-ebe9-4193-bf47-1f5054bc1219|f07e1f51-b3c9-478d-9eaf-4724de85be9e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|113830000|40169936|131d15d7-ebe9-4193-bf47-1f5054bc1219|bbb49ea0-76d4-4e46-8299-169b07a4e53f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|113830000|40169936|131d15d7-ebe9-4193-bf47-1f5054bc1219|e9353262-6d37-480d-9f5e-009c51b442b0",
+          ""
+        ],
+        [
+          "silk_edge_clearance|54000000|60290000|ee396b36-726a-4300-bd14-afc3244adc76|921d844f-f35b-4c38-be54-931d7dde8c2b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|54028073|55170000|07fe079e-b00a-4b12-987e-43fb952e6687|261a132d-d151-48fa-bf26-7c11b8f8ec61",
+          ""
+        ],
+        [
+          "silk_edge_clearance|55412444|46025760|07fe079e-b00a-4b12-987e-43fb952e6687|1318f11b-182f-417e-9433-51844f7f4d77",
+          ""
+        ],
+        [
+          "silk_edge_clearance|59097558|42470100|07fe079e-b00a-4b12-987e-43fb952e6687|fa52da66-74fd-4cff-b5b6-c4eca161f8ae",
+          ""
+        ],
+        [
+          "silk_edge_clearance|74170000|40169936|07fe079e-b00a-4b12-987e-43fb952e6687|469e3331-954c-415c-9c88-7b51d713c736",
+          ""
+        ],
+        [
+          "silk_edge_clearance|79290000|40056935|07fe079e-b00a-4b12-987e-43fb952e6687|9c2b0b69-d250-4a3b-adab-b242077c5621",
+          ""
+        ],
+        [
+          "silk_edge_clearance|94000000|40000000|07fe079e-b00a-4b12-987e-43fb952e6687|ea5014fb-b1f2-4e9b-a5dc-aef40105a0c8",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -190,6 +287,8 @@
         0.0,
         0.254,
         0.3048,
+        0.381,
+        0.508,
         0.635,
         0.762,
         1.27
@@ -226,12 +325,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.381,
-          "drill": 0.508
-        },
-        {
           "diameter": 0.762,
-          "drill": 0.762
+          "drill": 0.381
         }
       ],
       "zones_allow_external_fillets": false

@@ -96,14 +96,6 @@
           ""
         ],
         [
-          "courtyards_overlap|126795000|54515000|b3563866-cc68-4004-9ebd-7e705ef4b63e|e595abc6-dba4-4a1d-8600-98a4b41ec70a",
-          ""
-        ],
-        [
-          "courtyards_overlap|50285000|54525000|52b7821c-b8ce-47eb-a21a-87c33e27ed81|6d14555e-54e4-4b54-9607-96e55738da94",
-          ""
-        ],
-        [
           "courtyards_overlap|55348338|37808736|41542456-0cc0-4fbc-875f-f488b7f44ed5|9cb2458e-d110-43da-b580-f8127689a6cc",
           ""
         ],
@@ -154,13 +146,13 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
